@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукты питания</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .main-list {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul ul {
+            list-style-type: '▪ ';
+            margin-left: 20px;
+        }
+        ul ul ul {
+            list-style-type: lower-alpha;
+        }
+        ul ul ul ul {
+            list-style-type: lower-roman;
+        }
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+        ol ol {
+            list-style-type: lower-alpha;
+        }
+    </style>
+</head>
+<body>
+    <h1>Продукты питания</h1>
+    
+    <ol class="main-list" type="I">
+        <li>Фрукты
+            <ul>
+                <li>Яблоки
+                    <ul>
+                        <li>Зеленые</li>
+                        <li>Красные</li>
+                    </ul>
+                </li>
+                <li>Апельсины</li>
+                <li>Груши</li>
+            </ul>
+        </li>
+        <li>Овощи
+            <ol>
+                <li>Картофель</li>
+                <li>Морковь</li>
+                <li>Капуста
+                    <ul>
+                        <li>Брокколи</li>
+                        <li>Цветная</li>
+                    </ul>
+                </li>
+                <li>Свекла</li>
+            </ol>
+        </li>
+    </ol>
+
+</body>
+</html>
